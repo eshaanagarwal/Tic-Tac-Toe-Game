@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+<i>
+  
+    <section>
+      <nav class="navbar navbar-dark bg-dark" id="top">
+        <div id="head">
+       Tic-Tac-Toe Game By <a href="https://github.com/eshaanagarwal" target="_blank" id="git">Eshaan</a> 
+      </div>
+            
+    </nav>
+    <section>
+        <h4 class="game--title">Two Player Mode</h4>
+        <div class="chosing-message1 container-fluid" id="chosingMessage1">
+          
+          <h3 id="Menustyle">Menu Mode</h3>
+          <div>
+            <button class="btn btn-danger" id="dx">
+                <h1>Two Player </h1>
+                <h1>P1 as X</h1>
+            </button>
+            <button class="btn btn-danger" id="do">
+              <h1>Two Player
+            
+              </h1>
+              <h1>P1 as O</h1>
+          </button>
+      </div>
+          <div class="btn-group-horizontal">
+            <div>
+              <button class="btn btn-success" id="sx">
+                  <h1>Single Player</h1>
+                  <h1>Human as X</h1>
+              </button>
+              <button class="btn btn-primary" id="so">
+                  <h1>Single Player</h1>
+                  <h1>Human as O</h1>
+              </button>
+            </div>
+           
+        <div>
+            <h1 class="single" >(If Single Player is chosen)</h1>
+            <button class="btn btn-danger" id="cf">
+                <h1>Computer Plays First</h1>
+                
+            </button>
+            <button class="btn btn-danger" id="hf">
+              <h1>Human Plays First
+            
+              </h1>
+              
+          </button>
+      </div>
+        <button class="btn btn-success" id="playButton">
+          <h1>Play
+        
+          </h1>
+          
+      </button>
+  </div>
+        
+          </div> 
+      </div>
+          <div class="input-prepend input-append right">
+            <h4 id="owin">
+            <span id="pName" ></span><strong id="o_win" > 0 </strong><span >  time(s)</span>
+            </div></h4>
+            <div class="input-prepend input-append">
+              <h4 id="xwin">
+            <span id="pNamen" ></span><strong id="x_win"> 0 </strong><span >  time(s)</span>
+          </h4>
+            </div>
+        <div class="game--container">
+            <div data-cell-index="0" class="cell"></div>
+            <div data-cell-index="1" class="cell"></div>
+            <div data-cell-index="2" class="cell"></div>
+            <div data-cell-index="3" class="cell"></div>
+            <div data-cell-index="4" class="cell"></div>
+            <div data-cell-index="5" class="cell"></div>
+            <div data-cell-index="6" class="cell"></div>
+            <div data-cell-index="7" class="cell"></div>
+            <div data-cell-index="8" class="cell"></div>
+        </div>
+        <h2 class="game--status"></h2>
+        <button class="btn btn-primary game--restart" id="restart">Restart Game</button>
+        <button class="btn btn-primary game--forcerestart" id="resetScore">Reset Score</button>
+        <button class="btn btn-primary game--menu" id="menu">Back to Menu</button>
+        
+    <span></span>
+    <span></span>
+    
+    </section>
+        
+  
+<script src="main.js"></script>
+<script src="main2.js"></script>
+</body>
+</html>
