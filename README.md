@@ -1,4 +1,4 @@
-# Tic-Tac-Toe-Game
+# Tic-Tac-Toe-Game - Link for the game - https://eshaanagarwal.github.io/Tic-Tac-Toe-Game/
 Made Tic-Tac-Toe Game using HTML , CSS , Js and BootStrap. 
 The game include following features :
 - **1**: Implemented a two-player mode that allows two people to compete against each other.
